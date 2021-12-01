@@ -1,5 +1,6 @@
 # julialanguage-stability
-Esse repositório contem os codigos para estubar estabilidade de sistemas de potência a pequenas perturbações.
+Este repositório contem os codigos para estubar estabilidade de sistemas de potência a pequenas perturbações.
+Este repositório utiliza o modelo de terceira ordem.
 Para iniciar o código é necessário instalar algumas bibliotecas da linguagem Julia.
 Para isso verifique se possui instaladas as bibliotecas: 
 ----ControlSystems.jl
@@ -14,6 +15,7 @@ Pkg.add("nome_do_pacote.jl");
 Para utilizar os codigos deve-se alterar alguns dados constantes caso não funcionar com os valores já utilizados.
 
 This repository contains the codes to study power system stability to small disturbances.
+This repository uses the third-order model.
 To start the code it is necessary to install some Julia language libraries.
 For this, it has installed as libraries:
 ----ControlSystems.jl
